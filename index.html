@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title></title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width initial-scale=1.0">
+    <link href="styles.css" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/570ebbcc03.js" crossorigin="anonymous"></script>
+  </head>
+  <body>
+    <main>
+      <section class="section-1">
+        <header id="header">
+          <a href="https://imgur.com/8J6KqJz"><img src="coffee.png" title="source: imgur.com" id="header-img"/></a>
+          <h1>R&D</h1>
+          <nav id="nav-bar">
+            <ul>
+              <li>
+                <a href="#section-3" class="nav-link">Features</a>
+              </li>
+              <li>
+                <a href="#video" class="nav-link">How to Brew</a>
+              </li>
+              <li>
+                <a href="#prices" class="nav-link">Pricing</a>
+              </li>
+            </ul>
+          </nav>
+        </header>
+      </section>
+      <section class="section-2">
+        <div class="register">
+          <h2>Hand-picked, home-made masterpieces</h2>
+          <form id="form" action="https://www.freecodecamp.com/email-submit">
+            <input 
+              type="email" 
+              placeholder="Enter your Email Address" 
+              id="email"
+              name="email"
+              pattern="^([a-zA-Z0-9_\-\.]+)@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.)|(([a-zA-Z0-9\-]+\.)+))([a-zA-Z]{2,4}|[0-9]{1,3})(\]?)$"
+              />
+              <br>
+              <input id="submit" type="submit" action="https://www.freecodecamp.com/email-submit" method="POST" id="submit">
+          </form>
+        </div>
+      </section>
+      <section class="section-3" id="section-3">
+        <div class="features">
+          <i class="fa-solid fa-fire-flame-curved"></i>
+          <div class="text">
+            <h2 class="features-title">Premium Quality</h2>
+            <p class="features-subtitle">
+              Our coffees used the best bean which is sourced locally. 
+            </p>
+          </div>
+        </div>
+        <div class="features">
+          <i class="fa-solid fa-person-running"></i>
+          <div class="text">
+            <h2 class="features-title">Fast Services</h2>
+            <p class="features-subtitle">
+              We make sure you recieve your coffee as soon as we have finished making it. We also provide free returns if you are not satisfied.
+            </p>
+          </div>
+        </div>
+        <div class="features">
+          <i class="fa-solid fa-percent"></i>
+          <div class="text">
+            <h2 class="features-title">Quality Assurance</h2>
+            <p class="features-subtitle">
+              For every purchase you make, we will ensure there are no damages or faults on your coffee
+            </p>
+          </div>
+        </div>
+      </section>
+      <section class="section-4">
+        <div class="how-to-make">
+          <iframe width="560" height="315" src="https://www.youtube.com/embed/RaMKfYpfvv0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen id="video"></iframe>
+          <h3>How to Make Brewed Coffee</h3>
+        </div>
+      </section>
+      <section class="section-5">
+        <div id="prices">
+          <div class="price">
+            <h4>AMERICANO</h4>
+            <p><span>$50</span></p>
+            <p class="price-text">It's initially made with hot water, has all the crisp acids and low bitter notes we expect in coffee. It's crisp, it's sweet, and it's refreshing. </p>
+            <button type="submit">BUY</button>
+          </div>
+          <div class="price">
+            <h4>MACCHIATO</h4>
+            <p><span>$100</span></p>
+            <p class="price-text">It's initially made with hot water, has all the crisp acids and low bitter notes we expect in coffee. It's crisp, it's sweet, and it's refreshing. </p>
+            <button type="submit">BUY</button>
+          </div>
+          <div class="price">
+            <h4>MOCHA</h4>
+            <p ><span>$150</span></p>
+            <p class="price-text">It's initially made with hot water, has all the crisp acids and low bitter notes we expect in coffee. It's crisp, it's sweet, and it's refreshing. </p>
+            <button type="submit">BUY</button>
+          </div>
+
+        </div>
+      </section>
+
+    </main>
+
+  </body>
+</html>
